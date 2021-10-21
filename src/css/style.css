@@ -1,0 +1,42 @@
+html{
+    font-size:62.5%;
+}
+
+body{
+    color: white;
+}
+
+main .cabecalho{
+    width:100%;
+    background: rgba(0,0,0,0.7);
+    text-align:center;
+    font-size: 2rem;
+    padding: 20px;
+    position:fixed;
+}
+
+
+section.texto-centro{
+    width:400px;
+    background: rgba(0,0,0,0.7);
+    padding:20px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+main .texto-centro h2{
+    font-size:2.3rem;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+main .texto-centro p{
+    font-size:2rem;
+}
+
+.bg-video{
+    position: fixed;
+    z-index: -1;
+}
